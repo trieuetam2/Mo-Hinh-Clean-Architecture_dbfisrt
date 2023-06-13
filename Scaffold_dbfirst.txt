@@ -1,0 +1,1 @@
+dotnet ef dbcontext scaffold "Server=DESKTOP-1MLPLGM;Database=qlStudent;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer --context-dir Entities -t "Classs" -t "Students" -t "LichHoc" -t "Favourite" --output-dir Entities -f
